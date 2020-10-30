@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Permanent+Marker&family=Piedra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Satisfy&family=Staatliches&display=swap');
+
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+/*topbar*/
+
+.topmain{
+  background:#F5F5F5;
+}
+
+
+.phone{
+	width:220px;
+    padding: 10px 10px;
+  
+    border-right:  1px solid #ddd;
+    border-left: 1px solid #ddd;
+    float: left;
+}
+
+.phone i{
+	color:#ff5200;
+}
+
+.topbarwrapper {
+    overflow: hidden;
+}
+
+.email {
+    width: 720px;
+    float: left;
+    padding: 10px 10px;
+    border-right: 1px solid #ddd;
+}
+.email i{
+	color:#ff5200;
+}
+
+.social {
+    overflow: hidden;
+    width: 150px;
+    float: left;
+    transition:.3s;
+}
+.social i:hover{
+	color:#ff5200;
+}
+
+.social a{
+	display: block;
+	padding:10px 10px;
+	float:left;
+	border:1px solid #ddd;
+	color:#222;
+}
+
+
+
+/*navbar*/
+
+nav.navbar.navbar-expand-lg {
+    height: 100px;
+}
+
+a.navbar-brand {
+    color: #333;
+}
+
+a.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+ul.navbar-nav.mr-auto a {
+    color: #333;
+    font-weight: bold;
+}
+
+ul.navbar-nav.nav-link:hover a{
+	color:#ff5200;
+}
+
+.loginsigninbtn {
+    margin--left: 33px;
+}
+
+ul.navbar-nav.mr-auto {
+    margin-left: 25px;
+}
+
+form.form-inline.my-2.my-lg-0 {
+    margin-right: 8px;
+}
+
+
+/*kantojior*/
+
+.ramsagor {
+    background: #ddd;
+    padding: 51px;
+}
+
+img {
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+img {
+    overflow: hidden;
+    width: 700px;
+    height: 400px;
+}
+
+
+.video {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+iframe.videos {
+    float: left;
+    overflow: hidden;
+}
+
+iframe.map {
+    width: 400px;
+    height: 310px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subfooter{
+	background: #333;
+	color:white;
+}

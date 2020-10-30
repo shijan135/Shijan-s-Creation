@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Permanent+Marker&family=Piedra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Satisfy&family=Staatliches&display=swap');
+
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.m-section{
+	margin-top:200px;
+	margin-bottom:20px;
+}
+
+/*topbar*/
+
+.topmain{
+  background:#F5F5F5;
+}
+
+
+.phone{
+	width:220px;
+    padding: 10px 10px;
+  
+    border-right:  1px solid #ddd;
+    border-left: 1px solid #ddd;
+    float: left;
+}
+
+.phone i{
+	color:#ff5200;
+}
+
+.topbarwrapper {
+    overflow: hidden;
+}
+
+.email {
+    width: 720px;
+    float: left;
+    padding: 10px 10px;
+    border-right: 1px solid #ddd;
+}
+.email i{
+	color:#ff5200;
+}
+
+.social {
+    overflow: hidden;
+    width: 150px;
+    float: left;
+    transition:.3s;
+}
+.social i:hover{
+	color:#ff5200;
+}
+
+.social a{
+	display: block;
+	padding:10px 10px;
+	float:left;
+	border:1px solid #ddd;
+	color:#222;
+}
+
+
+
+/*navbar*/
+
+nav.navbar.navbar-expand-lg {
+    height: 100px;
+}
+
+a.navbar-brand {
+    color: #333;
+}
+
+a.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+ul.navbar-nav.mr-auto a {
+    color: #333;
+    font-weight: bold;
+}
+
+ul.navbar-nav.nav-link:hover a{
+	color:#ff5200;
+}
+
+.loginsigninbtn {
+    margin--left: 33px;
+}
+
+ul.navbar-nav.mr-auto {
+    margin-left: 25px;
+}
+
+form.form-inline.my-2.my-lg-0 {
+    margin-right: 8px;
+}
+
+
+
+/*carousel start*/
+
+
+.carousel-item h1 {
+    color: blue;
+    font-family: 'Piedra', cursive;
+}
+
+.carousel-item p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Piedra', cursive;
+}
+
+
+
+
+
+.carousel-indicators li{
+	width:50px;
+	height:5px;
+	margin: 10px 10px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){
+	.carousel-inner .carousel-item .img-fluid{
+		height:600px;
+	}
+	.carousel-caption{
+		bottom:30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.carousel-inner .carousel-item .img-fluid{
+		height: 500px;
+	}
+}
+
+/*travel picture*/
+
+.travel-pic .img-fluid{
+	height:150px !important;
+	border-radius:5px;
+	margin-bottom:25px;
+}
+
+
+.travel-pic p{
+	text-align:justify;
+	color:#333;
+
+}
+.travel-pic:hover{
+	transform: translateX(1.1);
+}
+.travel-pic img{
+	transition:0.3s;
+}
+.travel-pic:hover img {
+    transform: scale(1.3);
+}
+
+
+
+.travel-pic h4 {
+    font-family: 'Piedra', cursive;
+}
+
+
+
+
+/*explore start*/
+
+.explore{
+	width:100%;
+	height:300px;
+	background-image: url(https://tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/images/2019/09/17/rajshahi_road_side_tree.jpg?itok=pWlVMxtK);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position:relative;
+}
+
+.explore-inside{
+	position:absolute;
+	top:10%;
+	left:0;
+	right:0;
+	margin:auto;
+	color:#fff;
+}
+
+
+.explore-inside h3 {
+    color: #05054d;
+    font-weight: bolder;
+    font-family: 'Piedra', cursive;
+    letter-spacing: 1px;
+}
+
+.explore-inside p {
+    color: #ae0000;
+    font-weight: bolder;
+    font-family: 'Piedra', cursive;
+    letter-spacing: 1px;
+}
+
+/*details*/
+
+.details p{
+	color:#333;
+	font-size:18px;
+	margin-bottom:15px;
+}
+
+
+.details img {
+	max-height: 250px;
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	
+}
+.details img {
+    max-height: 250px;
+    box-shadow: 4px 4px 6px rgb(68 68 68);
+    transition:.4s;
+}
+
+.details img:hover{
+	transform: scale(1.1);
+}
+
+
+.subfooter{
+	background: #333;
+	color:white;
+}
+
+.row.details h2 {
+    color: blue;
+    font-weight: bolder;
+    font-family: 'Piedra', cursive;
+}
+
+.row.details p {
+    color: #333;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+
+
+
+.row h3 {
+    font-size: 40px;
+    color: #0fa3df;
+    font-family:  'Pacifico', cursive;
+}
+
+
+
+
+ul.pagination {
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
